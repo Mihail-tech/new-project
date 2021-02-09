@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Montserrat Regular;
+    font-display: auto;
+    src: local('Montserrat Regular'), url('css\fonts\Montserrat-Regular.woff2');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Montserrat Bold;
+    font-display: auto;
+    src: local('Montserrat Bold'), url('css\fonts\Montserrat-Bold.woff2');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Montserrat ExtraBold;
+    font-display: auto;
+    src: local('Montserrat ExtraBold'), url('css\fonts\Montserrat-ExtraBold.woff2');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Montserrat Italic;
+    font-display: auto;
+    src: local('Montserrat Italic'), url('css\fonts\Montserrat-Italic.woff2');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Montserrat Medium;
+    font-display: auto;
+    src: local('Montserrat Medium'), url('css\fonts\Montserrat-Medium.woff2');
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Montserrat Medium';
+    margin: 0;
+  }
+  
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: 'Montserrat Medium';
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  section {
+    border: 2px solid red;
+  }
+  
+  .home-section {
+    height: 100vh;
+    background-image: url("../img/Rectangle.png");
+    background-size: auto 100%;
+    background-position: center;
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .home-content .first-title {
+  
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  .home-content .button-block button {
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 14px 36px;
+  }
+  
+  .home-section .navbar .navigator {
+      font-family: 'Montserrat Medium';
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+     padding-left: 48%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #FFFFFF;
+  }
+
+  .service-sections {
+      width: 100%;
+    background: #E5E5E5;
+  }
+
+  h2  {
+    font-family: 'Montserrat Medium';
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+  }
+   
+  .service-sections .container .service-fish {
+      font-family: 'Montserrat Medium';
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #999999;
+  }
+
+  .service-content .button-block button {
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 14px 36px;
+  }
+
+  .service-content .container .create-web .web {
+      font-family: 'Montserrat Medium';
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+  }
+
+  .service-content .container .create-web .create-fish {
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+    line-height: 22px;
+    
+    color: #999999;
+  }
+  hr {
+      width: 100%;
+    opacity: 0.5;
+    border: 1px solid #A1A1A1;
+  }
+  
