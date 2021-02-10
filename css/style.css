@@ -88,6 +88,7 @@
   .home-section .navbar .navigator {
       font-family: 'Montserrat Medium';
       list-style-type: none;
+      position: slick;
       display: flex;
       flex-direction: row;
      padding-left: 48%;
@@ -100,6 +101,12 @@
       color: #FFFFFF;
   }
 
+  hr {
+    width: 100%;
+  opacity: 0.5;
+  border: 1px solid #A1A1A1;
+}
+
   .service-sections {
       width: 100%;
     background: #E5E5E5;
@@ -111,6 +118,7 @@
     line-height: 53px;
     text-align: center;
     color: #323232;
+    margin: 8% 8% 4%;
   }
    
   .service-sections .container .service-fish {
@@ -118,7 +126,7 @@
     font-size: 16px;
     line-height: 25px;
     text-align: center;
-
+    margin: 2% 9% 4%;
     color: #999999;
   }
 
@@ -131,12 +139,19 @@
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
     padding: 14px 36px;
+    margin: 5% 0% 8%;
+  }
+
+  .service-content .button-block {
+    text-align: center;
   }
 
   .service-content .container .create-web .web {
       font-family: 'Montserrat Medium';
     font-size: 18px;
     line-height: 22px;
+    list-style-type: none;
+    
     
     color: #000000;
   }
@@ -145,12 +160,53 @@
     font-family: 'Montserrat Medium';
     font-size: 14px;
     line-height: 22px;
+    list-style-type: none;
+    
     
     color: #999999;
   }
-  hr {
-      width: 100%;
-    opacity: 0.5;
-    border: 1px solid #A1A1A1;
+  
+  .service-sections .service-content .create {
+    display: flex;
+    flex-direction: row;
+
   }
+
+  .one-block {
+    display: flex;
+  }
+
+  .two-block {
+    display: flex;
+  }
+
+  .three-block {
+    display: flex;
+  }
+
+  #elipse {
+    border-radius: 100%;
+    border: 1px solid #E0E0E0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #elipse1 {
+    border-radius: 100%;
+    border: 1px solid #4985FF;
+    width: 80px;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+  }
+
+  .round {
+    margin: 21%;
+  }
+  
+
+    
   
