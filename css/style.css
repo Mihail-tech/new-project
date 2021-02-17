@@ -62,7 +62,7 @@
  
   
   .home-section {
-    height: 100vh;
+    
     background-image: url("../img/Rectangle.png");
     background-size: auto 100%;
     background-position: center;
@@ -103,6 +103,7 @@
      padding-left: 48%;
      padding-top: 2%;
      padding-bottom: 2%;
+     margin: 0%;
      
       font-size: 16px;
       line-height: 20px;
@@ -127,7 +128,7 @@
     line-height: 53px;
     text-align: center;
     color: #323232;
-    margin: 8% 8% 4%;
+    margin-block-start: 0em;
   }
    
   .service-sections .container .service-fish {
@@ -268,7 +269,7 @@ flex-direction: row;
 
   .high-standart .out-projectss {
     justify-content: space-between;
-    margin-bottom: 70px;
+
   }
   
   .high-standart .high-standart-developer span,
@@ -306,7 +307,7 @@ flex-direction: row;
     color:#FFFFFF;
   }
   .our-works{
-    height: 100vh;
+   
     background: linear-gradient(#504DC2 50%, #fcfbfd 50%);
   }
 
@@ -316,9 +317,15 @@ flex-direction: row;
     margin: 0px 0 40px 0;
   }
 
+
+
   .our-works-item {
 width: 32%;
   }
+
+  
+
+
 
   .our-works-item img {
     width: 100%;
@@ -348,8 +355,9 @@ line-height: 22px;
   }
 
 
+  
+
   .all-projects {
-    height: 100vh;
     background: #F6F6F8;
   }
 
@@ -358,6 +366,7 @@ line-height: 22px;
     font-size: 36px;
 line-height: 53px;
 text-align: center;
+margin-block-start: 0em;
 
 color: #000000;
 
@@ -384,13 +393,13 @@ color: #999999;
   }
 
   .video-about-our-work {
-    height: 100vh;
+  
     background-image: url("../img/Rectangle 6.png");
     background-size: auto 100%;
     background-position: center;
   }
     .white-block {
-    height: 30vh;
+   
     background: white;
     background-size: auto 100%;
     background-position: center;
@@ -401,6 +410,7 @@ color: #999999;
     font-size: 36px;
 line-height: 53px;
 text-align: center;
+margin-block-start: 0em;
 
 color: #FFFFFF;
   }
@@ -480,7 +490,7 @@ color: #999999;
 
 .subscribe-block {
   justify-content: center;
-  width: 490px;
+  
   margin: 0 auto; 
   padding-bottom: 35px;
 }
@@ -500,6 +510,12 @@ color: #999999;
 line-height: 21px;
     color:#999999;
     text-align: center;
+  }
+
+  .subscribe-block input:hover{
+    background-color: #4985FF;
+    cursor: pointer;
+    transition: 1.5s;
   }
   .subscribe-block .primary-button {
     border-radius: 0 30px 30px 0;
@@ -538,4 +554,281 @@ line-height: 21px;
 text-align: center;
 
 color: #999999;
+  }
+
+  @media (max-width: 900px) {
+    .home-section .first-title {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .home-section .home-content h1 {
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .primary-button {
+      font-size: 14px;
+      padding: 7px 14px;
+    }
+
+    .home-section .navbar .navigator {
+      flex-wrap: wrap;
+      font-size: 10px;
+    }
+    .service-sections .service-content h2,
+    h4 {
+      font-size: 14px;
+      text-align: center;
+    }
+    .service-sections .service-content .service-fish {
+      font-size: 10px;
+    }
+    .service-sections .service-content .create {
+      flex-wrap: wrap;
+    }
+    .one-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .two-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .three-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+
+    .our-works-items {
+      flex-wrap: wrap;
+    }
+    .our-works-item {
+      width: 47%;
+      margin-bottom: 10px;
+    }
+    .our-works-item h4,
+    .our-works-item h4 span,
+    .our-works-item p,
+    .our-works-item a {
+      font-size: 10px;
+    }
+    .high-standart-developer {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+    .high-standart .high-standart-developer p,
+    a {
+      font-size: 10px;
+      text-align: center;
+    }
+    .high-standart-developer img {
+      width: 250px;
+      height: 200px;
+    }
+    .out-projectss  {
+      flex-wrap: wrap; 
+    }
+    /* на 600
+    .out-projectss  {
+      flex-direction: coulmn; 
+    }
+    */
+    .our-works-title h3{
+      font-size: 14px;
+    }
+    /*на 600 уменьшить картинки*/
+    .all-projects .all-project h4 {
+      font-size: 14px;
+    }
+    .all-projects .all-project p {
+      font-size: 10px;
+    }
+    .all-projects .all-project-picture {
+      flex-wrap: wrap;
+    }
+
+
+    .video-about-our-work h6 {
+      font-size: 14px;
+    }
+    .video-about-our-work p {
+      font-size: 10px;
+    }
+    .video-block {
+      width: 100%;
+    }
+
+
+
+
+
+    .spam-container h5 {
+      font-size: 14px;
+    }
+    .spam-container p {
+      font-size: 10px;
+    }
+
+    .subscribe-block input  {
+      width: 0;
+      flex-wrap: nowrap;
+    }
+    .footer-link {
+      flex-direction: column;
+    }
+    .footer-link .contact-inf p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .main-link p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .project-our p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .social-net p,
+    ul {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+   /* .our-works-item {
+      width: 100%;
+    }*/
+    .home-section .first-title {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .home-section .home-content h1 {
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .primary-button {
+      font-size: 14px;
+      padding: 7px 14px;
+    }
+
+    .home-section .navbar .navigator {
+      flex-wrap: wrap;
+      font-size: 10px;
+    }
+    .service-sections .service-content h2,
+    h4 {
+      font-size: 14px;
+      text-align: center;
+    }
+    .service-sections .service-content .service-fish {
+      font-size: 10px;
+    }
+    .service-sections .service-content .create {
+      flex-wrap: wrap;
+    }
+    .one-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .two-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .three-block {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+
+    .our-works-items {
+      flex-wrap: wrap;
+    }
+    .our-works-item {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .our-works-item h4,
+    .our-works-item h4 span,
+    .our-works-item p,
+    .our-works-item a {
+      font-size: 10px;
+    }
+    .high-standart-developer {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+    .high-standart .high-standart-developer p,
+    a {
+      font-size: 10px;
+      text-align: center;
+    }
+    .high-standart-developer img {
+      width: 250px;
+      height: 200px;
+    }
+    .out-projectss  {
+      flex-wrap: wrap; 
+    }
+    
+    .out-projectss  {
+      flex-direction: coulmn; 
+    }
+    .our-works-title h3{
+      font-size: 14px;
+    }
+    /*на 600 уменьшить картинки*/
+    .all-projects .all-project h4 {
+      font-size: 14px;
+    }
+    .all-projects .all-project p {
+      font-size: 10px;
+    }
+    .all-projects .all-project-picture {
+      flex-wrap: wrap;
+    }
+    /*.all-projects .all-project-picture {
+      width: 155px;
+      height: 155px;
+    }*/
+    .video-about-our-work h6 {
+      font-size: 14px;
+    }
+    .video-about-our-work p {
+      font-size: 10px;
+    }
+    .video-about-our-work .video-block {
+      width: 100%;
+    }
+
+
+
+
+    .spam-container h5 {
+      font-size: 14px;
+    }
+    .spam-container p {
+      font-size: 10px;
+    }
+
+    .subscribe-block input  {
+      width: 0;
+      flex-wrap: nowrap;
+    }
+    .footer-link {
+      flex-direction: column;
+    }
+    .footer-link .contact-inf p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .main-link p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .project-our p,
+    ul {
+      font-size: 10px;
+    }
+    .footer-link .social-net p,
+    ul {
+      font-size: 10px;
+    }
   }
